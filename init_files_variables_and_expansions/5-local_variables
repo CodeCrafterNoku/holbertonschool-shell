@@ -1,0 +1,8 @@
+#!/bin/bash
+# Lists all local variables, environment variables, and functions
+
+echo "===== Environment Variables ====="
+printenv
+
+echo -e "\n===== Local Variables and Functions ====="
+set
